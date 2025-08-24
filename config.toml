@@ -5,4 +5,4 @@ parallel-jobs = 1
 build-mode = "module"
 arch = "both"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud"
+uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
