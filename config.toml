@@ -8,3 +8,13 @@ patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountr
 version = "auto"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 exclusive-patches = true
+
+[YouTube]
+build-mode = "module"
+included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image region restrictions' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable forced auto captions' 'Disable haptic feedback' 'Disable layout updates' 'Disable resuming Miniplayer on startup' 'Disable resuming Shorts on startup' 'Disable sign in to TV popup' 'Disable splash animation' 'Enable OPUS codec' 'Enable gradient loading screen' 'Hide Shorts dimming' 'Hide ads' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Return YouTube Username' 'Sanitize sharing links' 'Shorts components' 'Snack bar components' 'SponsorBlock' 'Spoof app version' 'Spoof streaming data'"
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+exclusive-patches = true
