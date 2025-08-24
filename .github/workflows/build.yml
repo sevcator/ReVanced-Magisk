@@ -60,6 +60,13 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
+      - name: Upload modules as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modules-artifact
+          path: build/
+          if-no-files-found: error
+
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
         with:
