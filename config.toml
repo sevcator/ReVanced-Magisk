@@ -3,6 +3,8 @@ parallel-jobs = 1
 
 [SoundCloud]
 build-mode = "module"
+excluded-patches = ""
+included-patches = ""
 arch = "both"
 version = "auto"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
