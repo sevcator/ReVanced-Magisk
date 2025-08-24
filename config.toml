@@ -5,7 +5,6 @@ parallel-jobs = 1
 build-mode = "module"
 included-patches = "'Hide ads' 'Enable offline sync'"
 patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE -e 'Disable telemetry'"
-arch = "both"
 version = "auto"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 exclusive-patches = true
