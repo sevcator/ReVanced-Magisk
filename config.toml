@@ -3,8 +3,9 @@ parallel-jobs = 1
 
 [SoundCloud]
 build-mode = "module"
-excluded-patches = "'Disable telemetry'"
+excluded-patches = "'Disable telemetry' 'Export all activities' 'Hide ADB status' 'Hide app icon' 'Spoof build info' 'Hide mock location' 'Spoof SIM country' 'Spoof Wi-Fi connection' 'Enable Android debugging' 'Export internal data documents provider' 'Hex' 'Predictive back gesture' 'Override certificate pinning' 'Change package name' 'Remove screen capture restriction' 'Remove screenshot restriction' 'Remove share targets' 'Enable ROM signature spoofing' 'Set target SDK version 34' 'Change version code'"
 patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE -e 'Disable telemetry'"
 arch = "both"
 version = "auto"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
+
