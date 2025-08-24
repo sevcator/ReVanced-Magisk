@@ -8,4 +8,4 @@ patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountr
 arch = "both"
 version = "auto"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
-
+exclusive-patches = true
