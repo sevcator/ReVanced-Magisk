@@ -3,8 +3,8 @@ parallel-jobs = 1
 
 [SoundCloud]
 build-mode = "module"
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "'Disable telemetry'"
+patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE -e 'Disable telemetry'"
 arch = "both"
 version = "auto"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
