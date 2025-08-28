@@ -600,10 +600,10 @@ build_rv() {
 
 		local rv_patches_ver="${rv_patches_jar##*-}"
 		module_prop \
-			"${args[module_prop_name]}" \
-			"${app_name} ${args[rv_brand]}" \
-			"${version} (patches ${rv_patches_ver%%.rvp})" \
-			"⚡ ${app_name} with ReVanced patches" \
+			"${args}" \
+			"${args[rv_brand]} ${app_name}" \
+			"${version} (${rv_patches_ver%%.rvp})" \
+			"⚡ ${app_name} with patches" \
 			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY-}/update/${upj}" \
 			"$base_template"
 
