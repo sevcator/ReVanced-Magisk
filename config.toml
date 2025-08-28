@@ -6,7 +6,6 @@ build-mode = "module"
 included-patches = "'Hide ads' 'Enable offline sync'"
 patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud/"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 exclusive-patches = true
 patches-source = "revanced/revanced-patches"
@@ -18,7 +17,6 @@ included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image 
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 exclusive-patches = true
 
@@ -27,7 +25,6 @@ build-mode = "module"
 included-patches = "'Unlock Premium' 'Sanitize sharing links' 'Fix third party launchers widgets'"
 patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 exclusive-patches = true
 patches-version = "dev"
@@ -38,7 +35,6 @@ cli-source = "revanced/revanced-cli"
 build-mode = "module"
 included-patches = "'Hide ads'"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv"
 uptodown-dlurl = "https://pixiv.en.uptodown.com/android"
 exclusive-patches = true
 patches-source = "revanced/revanced-patches"
