@@ -3,18 +3,45 @@ parallel-jobs = 1
 
 [SoundCloud]
 build-mode = "module"
-included-patches = "'Hide ads' 'Enable offline sync' "
+included-patches = "'Hide ads' 'Enable offline sync'"
 patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE"
 version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud/"
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
 exclusive-patches = true
+patches-source = "revanced/revanced-patches"
+cli-source = "revanced/revanced-cli"
 
 [YouTube]
 build-mode = "module"
-included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image region restrictions' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable forced auto captions' 'Disable haptic feedback' 'Disable layout updates' 'Disable resuming Miniplayer on startup' 'Disable resuming Shorts on startup' 'Disable sign in to TV popup' 'Disable splash animation' 'Enable OPUS codec' 'Enable gradient loading screen' 'Hide Shorts dimming' 'Hide ads' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Return YouTube Username' 'Sanitize sharing links' 'Shorts components' 'Snack bar components' 'SponsorBlock' 'Spoof app version' 'Spoof streaming data'"
+included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image region restrictions' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable forced auto captions' 'Disable haptic feedback' 'Disable layout updates' 'Disable resuming Miniplayer on startup' 'Disable resuming Shorts on startup' 'Disable sign in to TV popup' 'Disable splash animation' 'Enable OPUS codec' 'Enable gradient loading screen' 'Hide ads' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Return YouTube Username' 'Sanitize sharing links' 'SponsorBlock' 'Spoof app version' 'Spoof streaming data'"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 exclusive-patches = true
+patches-source = "revanced/revanced-patches"
+cli-source = "revanced/revanced-cli"
+
+[Spotify]
+build-mode = "module"
+included-patches = "'Unlock Premium' 'Sanitize sharing links' 'Fix third party launchers widgets'"
+patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+exclusive-patches = true
+patches-version = "dev"
+patches-source = "revanced/revanced-patches"
+cli-source = "revanced/revanced-cli"
+
+[Pixiv]
+build-mode = "module"
+included-patches = "'Hide ads'"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv"
+uptodown-dlurl = "https://pixiv.ru.uptodown.com/android"
+exclusive-patches = true
+patches-source = "revanced/revanced-patches"
+cli-source = "revanced/revanced-cli"
