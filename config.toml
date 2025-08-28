@@ -17,6 +17,7 @@ included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image 
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 exclusive-patches = true
 
@@ -35,6 +36,7 @@ cli-source = "revanced/revanced-cli"
 build-mode = "module"
 included-patches = "'Hide ads'"
 version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv"
 uptodown-dlurl = "https://pixiv.en.uptodown.com/android"
 exclusive-patches = true
 patches-source = "revanced/revanced-patches"
