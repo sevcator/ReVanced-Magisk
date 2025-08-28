@@ -159,4 +159,3 @@ rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 if [ "$KSU" ] && [ -d "/data/adb/modules/zygisk-assistant" ]; then
 	ui_print "- If you are using zygisk-assistant, you need to give root permissions to $PKG_NAME"
 fi
-ui_print "- Done"
