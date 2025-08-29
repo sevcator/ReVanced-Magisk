@@ -31,13 +31,3 @@ exclusive-patches = true
 patches-version = "dev"
 patches-source = "revanced/revanced-patches"
 cli-source = "revanced/revanced-cli"
-
-[Pixiv]
-build-mode = "module"
-included-patches = "'Hide ads'"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv"
-uptodown-dlurl = "https://pixiv.en.uptodown.com/android"
-exclusive-patches = true
-patches-source = "revanced/revanced-patches"
-cli-source = "revanced/revanced-cli"
