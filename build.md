@@ -1,4 +1,3 @@
-Pixiv: 6.141.1  
 SoundCloud: 2025.05.27-release  
 Spotify: 9.0.74.1121  
 YouTube: 19.47.53  
