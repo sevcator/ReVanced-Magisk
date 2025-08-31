@@ -13,7 +13,7 @@ cli-source = "revanced/revanced-cli"
 
 [YouTube]
 build-mode = "module"
-included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image region restrictions' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable forced auto captions' 'Disable haptic feedback' 'Disable layout updates' 'Disable resuming Miniplayer on startup' 'Disable resuming Shorts on startup' 'Disable sign in to TV popup' 'Disable splash animation' 'Enable OPUS codec' 'Enable gradient loading screen' 'Hide ads' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Return YouTube Username' 'Sanitize sharing links' 'SponsorBlock' 'Spoof app version' 'Spoof streaming data'"
+included-patches = "'Ambient mode control' 'Bypass URL redirects' 'Bypass image region restrictions' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable forced auto captions' 'Disable haptic feedback' 'Disable layout updates' 'Disable resuming Miniplayer on startup' 'Disable resuming Shorts on startup' 'Disable sign in to TV popup' 'Disable splash animation' 'Enable OPUS codec' 'Enable gradient loading screen' 'Hide ads' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Return YouTube Username' 'Sanitize sharing links' 'SponsorBlock' 'Spoof app version' 'Spoof streaming data' 'Video playback'"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 version = "auto"
