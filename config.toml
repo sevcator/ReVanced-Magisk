@@ -2,7 +2,7 @@ enable-magisk-update = true
 parallel-jobs = 1
 
 [SoundCloud]
-build-mode = "module"
+build-mode = "both"
 included-patches = "'Hide ads' 'Enable offline sync'"
 patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE"
 version = "auto"
@@ -20,14 +20,3 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 exclusive-patches = true
-
-[Spotify]
-build-mode = "module"
-included-patches = "'Unlock Premium' 'Sanitize sharing links' 'Fix third party launchers widgets'"
-patcher-args = "-e 'Spoof SIM country' -OnetworkIsoCountryCode=DE -OsimIsoCountryCode=DE"
-version = "auto"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-exclusive-patches = true
-patches-version = "dev"
-patches-source = "revanced/revanced-patches"
-cli-source = "revanced/revanced-cli"
